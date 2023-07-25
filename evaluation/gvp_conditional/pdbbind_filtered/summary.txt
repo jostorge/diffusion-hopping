@@ -1,0 +1,25 @@
+Output path: evaluation/gvp_conditional/pdbbind_filtered
+Ground truth results: 
+Summary statistics for mode ground_truth:
+Novelty: 1.000 ± 0.000
+Validity: 1.000 ± 0.000
+Connectivity: 1.000 ± 0.000
+Lipinski: 4.772 ± 0.540
+LogP: 2.368 ± 1.834
+QED: 0.606 ± 0.167
+SAScore: 0.736 ± 0.117
+Diversity: 1.000 ± 0.000
+QVina: -8.778 ± 1.910
+
+Ligand generation results: 
+Summary statistics for mode sampling:
+Novelty: 0.998 ± 0.047
+Validity: 0.974 ± 0.160
+Connectivity: 0.914 ± 0.280
+Lipinski: 4.672 ± 0.655
+LogP: 2.999 ± 2.011
+QED: 0.612 ± 0.183
+SAScore: 0.664 ± 0.134
+Diversity: 0.592 ± 0.211
+QVina: -7.883 ± 1.531
+

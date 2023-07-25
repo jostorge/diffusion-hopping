@@ -1,0 +1,25 @@
+Output path: evaluation/egnn_unconditional/pdbbind_filtered
+Ground truth results: 
+Summary statistics for mode ground_truth:
+Novelty: 1.000 ± 0.000
+Validity: 1.000 ± 0.000
+Connectivity: 1.000 ± 0.000
+Lipinski: 4.772 ± 0.540
+LogP: 2.368 ± 1.834
+QED: 0.606 ± 0.167
+SAScore: 0.736 ± 0.117
+Diversity: 1.000 ± 0.000
+QVina: -8.776 ± 1.905
+
+Inpaint generation results:
+Summary statistics for mode inpainting:
+Novelty: 0.999 ± 0.030
+Validity: 0.950 ± 0.219
+Connectivity: 0.793 ± 0.405
+Lipinski: 4.599 ± 0.738
+LogP: 2.037 ± 1.951
+QED: 0.467 ± 0.204
+SAScore: 0.644 ± 0.111
+Diversity: 0.667 ± 0.181
+QVina: -7.163 ± 1.524
+

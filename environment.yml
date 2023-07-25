@@ -1,0 +1,27 @@
+name: diffusion_hopping
+channels:
+  - pyg
+  - nvidia
+  - pytorch
+  - rdkit
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python-lmdb=1.4.0
+  - numpy=1.24.1
+  - python=3.10.8
+  - pytorch-cuda=11.7
+  - pytorch::pytorch=1.13.1
+  - wandb=0.14.0
+  - conda-forge::cudatoolkit=11.7
+  - pytorch-lightning=1.8.1
+  - torchvision=0.14.1
+  - tqdm=4.64.1
+  - pandas=1.5.2
+  - biopandas=0.4.1
+  - biopython=1.80
+  - rdkit=2022.09.3
+  - openbabel=3.1.1
+  - pyg::pyg=2.2.0
+  - pyg::pytorch-scatter=2.1.0

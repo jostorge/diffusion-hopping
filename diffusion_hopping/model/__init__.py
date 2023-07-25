@@ -1,0 +1,1 @@
+from diffusion_hopping.model.lightning import DiffusionHoppingModel

@@ -1,0 +1,60 @@
+name: egnn_unconditional
+project: diffusion_hopping
+program: train.sh
+method: bayes
+metric:
+  goal: minimize
+  name: loss/val
+early_terminate:
+  type: hyperband
+  min_iter: 9
+parameters:
+  architecture:
+    value: egnn
+  seed:
+    value: 1
+  dataset_name:
+    value: pdbbind_filtered
+  condition_on_fg:
+    value: False
+  num_steps:
+    value: 150000
+  batch_size:
+    value: 32
+  T:
+    value: 500
+  lr:
+    values:
+      - 5e-3
+      - 2e-3
+      - 1e-3
+      - 5e-4
+    distribution: categorical
+  num_layers:
+    min: 4
+    max: 7
+    distribution: int_uniform
+  joint_features:
+    values:
+      - 32
+      - 64
+      - 128
+      - 256
+    distribution: categorical
+  hidden_features:
+    values:
+      - 32
+      - 64
+      - 128
+      - 256
+  edge_cutoff:
+    value: (None, 5, 5)
+  attention:
+    values:
+      - True
+      - False
+    distribution: categorical
+command:
+  - ${env}
+  - ${program}
+  - ${args}
