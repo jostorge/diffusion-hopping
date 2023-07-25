@@ -69,7 +69,6 @@ Due to compute constraints, all experiments were conducted on `pdbbind_filtered`
 ## Reproducing the results of the paper
 ### Metrics reported in the paper
 The metrics reported in the paper were created using the provided model checkpoints. 
-The molecules generated as well as their respective metrics can be found in the `evaluation` folder. 
 ### Dataset Creation
 
 #### PDBbind
