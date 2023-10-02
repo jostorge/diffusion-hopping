@@ -5,6 +5,9 @@
 ![Diffusion process](img/diffusion.gif)
 
 Official implementation of "DiffHopp: A Graph Diffusion Model for Novel Drug Design via Scaffold Hopping". 
+
+[![arXiv](https://img.shields.io/badge/arXiv-2308.07416-B31B1B.svg)](https://arxiv.org/abs/2308.07416)
+
 ![Approach](img/approach.png)
 
 
@@ -166,3 +169,16 @@ python train_model.py "$@"
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+## Citation
+If you use this code in your research, please cite our paper:
+
+```
+@article{torge2023diffhopp,
+  title={DiffHopp: A Graph Diffusion Model for Novel Drug Design via Scaffold Hopping},
+  author={Jos Torge and Charles Harris and Simon V. Mathis and Pietro Lio},
+  journal={arXiv preprint arXiv:2308.07416},
+  year={2023}
+}
+```
